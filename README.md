@@ -1,4 +1,3 @@
-# MIST4610GroupProject2
 # Group 1 MIST4610 Group Project 2
 
 ## Team Name:
