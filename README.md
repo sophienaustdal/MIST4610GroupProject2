@@ -1,3 +1,4 @@
+# MIST4610GroupProject2
 # Group 1 MIST4610 Group Project 2
 
 ## Team Name:
@@ -10,4 +11,4 @@
 4. Chidera Nwosu
 5. Coleman Vaughn
 
-## Description of Dataset:# MIST4610GroupProject2
+## Description of Dataset:
