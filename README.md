@@ -14,6 +14,8 @@
 
 ## Question 1:
 
+<img width="1368" alt="Screenshot 2025-04-22 at 2 28 33 PM" src="https://github.com/user-attachments/assets/ac370e89-9817-4e28-b5f0-c028649874f9" />
+
 ## Question 2:
 
 ## Manipulations Applied:
