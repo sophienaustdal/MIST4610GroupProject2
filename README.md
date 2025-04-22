@@ -5,10 +5,10 @@
 
 ## Team Members:
 1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject2.git
-2. Rachel Chuan 
-3. Riley Cook 
-4. Chidera Nwosu
-5. Coleman Vaughn
+2. Riley Cook
+3. Rachel Chuan 
+5. Chidera Nwosu
+6. Coleman Vaughn
 
 ## Description of Dataset:
 
