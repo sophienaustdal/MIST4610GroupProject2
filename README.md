@@ -33,10 +33,14 @@ Part 2:
 
 
 ## Manipulations Applied:
+
 Part 1:
+
 “Major Brands”: Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, Toyota
 Category: Vehicle and Equipment
+
 Part 2:
+
 Category: Vehicle
 Components: All Vehicle Components with COUNT(Recall Count) >= 10
 Brands: GM, Ford, Chrysler
