@@ -26,15 +26,14 @@ Through filtering the manufacturers by top 5 by [Recall Count] and the component
 Question Part 1: Since vehicles and equipment are the most frequently recalled items, which of our “major brands” have the highest number of recalls in these categories? 
 Question Part 2: For the top three brands, what specific components are most commonly found to be faulty?
 
-Importance:
+Graphs & Manipulations:
+
+
 Part 1:
 
-Part 2:
+<img width="1185" alt="Screenshot 2025-04-25 at 10 23 47 AM" src="https://github.com/user-attachments/assets/92f52514-c5f7-468b-b5a7-acc7f20eb106" />
 
-
-## Manipulations Applied:
-
-Part 1:
+Manipulations:
 
 “Major Brands”: Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, Toyota
 
@@ -42,9 +41,14 @@ Category: Vehicle and Equipment
 
 Part 2:
 
+<img width="1182" alt="Screenshot 2025-04-25 at 10 28 21 AM" src="https://github.com/user-attachments/assets/b6cb8194-02c3-4103-8f69-7af9457b2aa8" />
+
+Manipulations:
+
 Category: Vehicle
 
 Components: All Vehicle Components with COUNT(Recall Count) >= 10
 
-Brands: GM, Ford, Chrysler
+Manufacturer: Top 3 by COUNT(Recall Count)
+
 ## Tableau Packaged Workbook:
