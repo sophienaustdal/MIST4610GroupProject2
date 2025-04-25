@@ -45,6 +45,9 @@ Part 2:
 
 <img width="1182" alt="Screenshot 2025-04-25 at 10 28 21 AM" src="https://github.com/user-attachments/assets/b6cb8194-02c3-4103-8f69-7af9457b2aa8" />
 
+<img width="1069" alt="Screenshot 2025-04-25 at 10 57 59 AM" src="https://github.com/user-attachments/assets/a8504ed5-1438-4c8b-9e5d-947bad4c6f4c" />
+
+
 Manipulations:
 
 Category: Vehicle
@@ -61,6 +64,6 @@ We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, T
 
 Part 2:
 
-Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, and Fuel Systems are 4 of the top 5 issues for each brand. Having this information in hand it can be useful for both the producer and consumer. On the end of the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
+Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, Power Train, and Fuel Systems are 4 of the top 5 issues for each brand. Having this information in hand it can be useful for both the producer and consumer. On the end of the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
 
 ## Tableau Packaged Workbook:
