@@ -16,6 +16,11 @@
 Question: What are the top 15 components that have the highest potential impact across the top 5 manufacturers with the most frequent recalls? How many vehicles are possibly affected by each component for each manufacturer?
 
 Importance:
+- Lets us pinpoint which components cause the most problems across those 5 manufacturers
+- Supports Consumer safety by identifying potential failures early
+- Avoiding repeating recalls on the same components can potentially save companies millions in repair, legal, and reputational costs
+- Will reveal patterns in component failure that will lead to improved designs, supplier choices, or quality control practices
+
 
 <img width="1200" alt="Screenshot 2025-04-22 at 7 17 19 PM" src="https://github.com/user-attachments/assets/9b989a3b-5f9b-448f-b599-8dd0e4b78ce3" />
 
