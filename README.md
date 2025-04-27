@@ -11,6 +11,8 @@
 6. Coleman Vaughn https://github.com/Colemanv33/groupproject2
 
 ## Description of Dataset:
+Our dataset is comprised of vehicle, equipment, tire, and child seat recalls from 1/19/1966 - 4/4/2025 and was published by the National Highway Traffic Safety Administration. The data reporting requirements are made by manufacturers who determine that a product or piece of original equipment either contains a safety defect or is not in compliance with Federal safety standards. Our data columns include: Report Received Date, Nhtsa id, Recall Link, Manufacturer, Subject, Component, Mfr Campaign Number, Recall Type, Potentially Affected, Recall Description, Consequence Summary, Corrective Action, Park Outside Advisory, and Do Not Drive Advisory. We have 28,895 rows, 2,208 Manufacturers, and 41 Components in this dataset.
+
 
 ## Question 1:
 Question: What are the top 15 components that have the highest potential impact across the top 5 manufacturers with the most frequent recalls? How many vehicles are possibly affected by each component for each manufacturer?
