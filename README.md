@@ -63,7 +63,7 @@ Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well a
 
 ## Dataset Manipulations:
 
-We only had one permanent filter on our data, which was the Report Received Date. We only used data that was reported between 2000 and 2025. This decision was made to increase the relevance it had to our questions and just to manage the sheer size of the data we had. We also created a calculated field called "Recall Count." This was just a COUNT function of the Nhtsa Id since each recall had its own unique Id associated with it. We only actually used a small percentage of the rows in the dataset to create our questions. The rows we used included: Report Received Date, Nhtsa id, Manufacturer, Recall Type, Component, and Potentially Affected.
+We used one permanent filter on our data, which was the Report Received Date. We only used data that was reported between 2000 and 2025. This decision was made to increase the relevance it had to our questions and to manage the sheer size of the data we had. We also created a calculated field called "Recall Count." This was a COUNT function of the Nhtsa Id since each recall had its own unique ID associated with it. We only used a small percentage of the rows in the dataset to create our questions. The rows we used included: Report Received Date, Nhtsa id, Manufacturer, Recall Type, Component, and Potentially Affected.
 
 
 ## Tableau Packaged Workbook:
