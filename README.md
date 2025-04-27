@@ -43,10 +43,9 @@ We filtered manufacturers to include "major brands", as the common manufacturers
 
 Part 2:
 
-<img width="1121" alt="Screenshot 2025-04-27 at 7 17 25 PM" src="https://github.com/user-attachments/assets/26b3fb2d-ca52-412c-ac26-0728c2611c5c" />
+<img width="1124" alt="Screenshot 2025-04-27 at 7 26 53 PM" src="https://github.com/user-attachments/assets/887e06be-f36c-4578-9263-5e2a4d75da85" />
 
-
-We filtered manufacturers to display the top 3 most recalled brands based on their [Recall Count]. The vehicle components were filtered to show the top 10 by [Recall Count]. Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, Power Train, and Fuel Systems are the top issues for each brand. Having this information in hand can be useful for both the producer and consumer. For the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
+Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. We filtered manufacturers to display the top 3 most recalled brands based on their [Recall Count]. The vehicle components were filtered to show the top 10 by [Recall Count]. The Recall Type was also filtered to display only "Vehicle" recalls. Our graph shows that electrical system, air bags, power train, service brakes, and steering are the top issues for each brand. Having this information in hand can be useful for both the producer and consumer. For the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
 
 ## Dataset Manipulations:
 
