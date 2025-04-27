@@ -24,11 +24,12 @@ Through filtering the manufacturers by top 5 by [Recall Count] and the component
 
 ## Question 2:
 
-Question 2 - Part 1: Since vehicles and equipment are the most frequently recalled items, which of our “major brands” have the highest number of recalls in these categories? 
+Question 2 - 
 
-Question 2 - Part 2: For the top three brands, what specific components are most commonly found to be faulty?
+Part 1: Since vehicles and equipment are the most frequently recalled items, which of our “major brands” have the highest number of recalls in these categories? 
+Part 2: For the top three brands, what specific components are most commonly found to be faulty?
 
-Graphs & Manipulations:
+Importance:
 
 
 Part 1:
@@ -40,6 +41,9 @@ Manipulations:
 “Major Brands”: Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, Toyota
 
 Category: Vehicle and Equipment
+
+We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, Tire, Child Seat), Vehicle and Equipment recalls far outweighed the latter two. Following this, we wanted to narrow our large data pool into relevant information, so the "Major Brands" filter was created. Comparing our brands to the number of recalls, we found two key pieces of information-- Ford, GM, and Chrysler are the most recalled brands, and Vehicular recalls were much higher than Equipment recalls consistently per brand. 
+
 
 Part 2:
 
@@ -55,14 +59,6 @@ Category: Vehicle
 Components: All Vehicle Components with COUNT(Recall Count) >= 10
 
 Manufacturer: Top 3 by COUNT(Recall Count)
-
-Importance:
-
-Part 1:
-
-We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, Tire, Child Seat), Vehicle and Equipment recalls far outweighed the latter two. Following this, we wanted to narrow our large data pool into relevant information, so the "Major Brands" filter was created. Comparing our brands to the number of recalls, we found two key pieces of information-- Ford, GM, and Chrysler are the most recalled brands, and Vehicular recalls were much higher than Equipment recalls consistently per brand. 
-
-Part 2:
 
 Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, Power Train, and Fuel Systems are the top issues for each brand. Having this information in hand it can be useful for both the producer and consumer. On the end of the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
 
