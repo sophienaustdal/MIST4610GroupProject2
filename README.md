@@ -11,7 +11,7 @@
 6. Coleman Vaughn https://github.com/Colemanv33/groupproject2
 
 ## Description of Dataset:
-Our dataset is comprised of vehicle, equipment, tire, and child seat recalls from 1/19/1966 - 4/4/2025 and was published by the National Highway Traffic Safety Administration. The data reporting requirements are made by manufacturers who determine that a product or piece of original equipment either contains a safety defect or is not in compliance with Federal safety standards. Our data columns include: Report Received Date, Nhtsa Id, Recall Link, Manufacturer, Subject, Component, Mfr Campaign Number, Recall Type, Potentially Affected, Recall Description, Consequence Summary, Corrective Action, Park Outside Advisory, and Do Not Drive Advisory. The dataset has 28,895 rows, indicating the total number of recalls. The dataset comprises 2,208 Manufacturers and 41 Components that were part of these recalls.
+Our dataset is comprised of vehicle, equipment, tire, and child seat recalls from 1/19/1966 - 4/4/2025 and was published by the National Highway Traffic Safety Administration. The data reporting requirements are made by manufacturers who determine that a product or piece of original equipment either contains a safety defect or is not in compliance with Federal safety standards. Our data columns include: Report Received Date, Nhtsa Id, Recall Link, Manufacturer, Subject, Component, Mfr Campaign Number, Recall Type, Potentially Affected, Recall Description, Consequence Summary, Corrective Action, Park Outside Advisory, and Do Not Drive Advisory. The dataset has 28,895 rows, indicating the total number of recalls. The dataset comprises 2,208 manufacturers and 41 components that were part of these recalls.
 
 
 ## Question 1:
@@ -39,13 +39,8 @@ Part 1:
 
 <img width="1185" alt="Screenshot 2025-04-25 at 10 23 47 AM" src="https://github.com/user-attachments/assets/92f52514-c5f7-468b-b5a7-acc7f20eb106" />
 
-Manipulations:
 
-“Major Brands”: Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, Toyota
-
-Category: Vehicle and Equipment
-
-We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, Tire, Child Seat), Vehicle and Equipment recalls far outweighed the latter two. Following this, we wanted to narrow our large data pool into relevant information, so the "Major Brands" filter was created. Comparing our brands to the number of recalls, we found two key pieces of information-- Ford, GM, and Chrysler are the most recalled brands, and Vehicular recalls were much higher than Equipment recalls consistently per brand. 
+We filtered manufacturers to include "major brands", as the common manufacturers most people think of. The filter included Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, and Toyota. Recall type included the categories of Vehicle and Equipment, which was placed in the color mark to differentiate the two more easily. We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, Tire, Child Seat), Vehicle and Equipment recalls far outweighed the latter two. Following this, we wanted to narrow our large data pool into relevant information, so the "Major Brands" filter was created. Comparing our brands to the number of recalls, we found two key pieces of information-- Ford, GM, and Chrysler are the most recalled brands, and Vehicular recalls were much higher than Equipment recalls consistently per brand. 
 
 
 Part 2:
@@ -55,15 +50,7 @@ Part 2:
 <img width="1069" alt="Screenshot 2025-04-25 at 10 57 59 AM" src="https://github.com/user-attachments/assets/a8504ed5-1438-4c8b-9e5d-947bad4c6f4c" />
 
 
-Manipulations:
-
-Category: Vehicle
-
-Components: All Vehicle Components with COUNT(Recall Count) >= 10
-
-Manufacturer: Top 3 by COUNT(Recall Count)
-
-Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, Power Train, and Fuel Systems are the top issues for each brand. Having this information in hand can be useful for both the producer and consumer. For the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
+We filtered manufacturers to display the top 3 most recalled brands based on their [Recall Count]. The vehicle components were filtered by having COUNT(Recall Count) >= 10. Seeing that Ford, GM, and Chrysler were the highest in recall numbers, as well as Vehicle recalls being more prevalent in our dataset, we decided to further look into which specific parts of vehicles were faulty for these high-risk brands. Our graph shows that Brakes, Steering, Electrical, Power Train, and Fuel Systems are the top issues for each brand. Having this information in hand can be useful for both the producer and consumer. For the manufacturer, such as our top 3, they can pinpoint recurring issues, assess risks and implement risk management techniques, and improve quality control efforts (i.e., increased training, higher job requirements, etc.), to help maintain brand reputation. Additionally, a car buyer may utilize this data to make a better informed decision prior to making a large financial commitment.
 
 ## Dataset Manipulations:
 
