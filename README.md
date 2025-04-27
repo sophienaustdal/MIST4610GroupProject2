@@ -33,7 +33,7 @@ Question:
 Importance:
 This question allows us to understand which major brands have the most commonly faulty components. The results could help us pinpoint recurring issues, assess potential risks, guide quality control efforts, as well as help maintain brand reputation.
 
--- Part 1:
+Part 1:
 
 <img width="1121" alt="Screenshot 2025-04-27 at 7 17 04 PM" src="https://github.com/user-attachments/assets/95cf9b08-c3cb-4363-b526-59bec8056703" />
 
@@ -41,7 +41,7 @@ This question allows us to understand which major brands have the most commonly 
 We filtered manufacturers to include "major brands", as the common manufacturers most people think of. The filter included Ford, GM, Chrysler, BMW, Mercedes, Volkswagen, Honda, Nissan, Hyundai, Kia, Subaru, Tesla, Mazda, and Toyota. Recall type, which included the categories of Vehicle and Equipment, was placed in the color mark to differentiate the two more easily. We observed that, of our four categories of "Recall Type" (Vehicle, Equipment, Tire, Child Seat), Vehicle and Equipment recalls far outweighed the latter two. Following this, we wanted to narrow our large data pool into relevant information, so the "Major Brands" filter was created. Comparing our brands to the number of recalls, we found two key pieces of information: Ford, GM, and Chrysler are the most recalled brands, and Vehicular recalls were much higher than Equipment recalls consistently per brand. 
 
 
--- Part 2:
+Part 2:
 
 <img width="1124" alt="Screenshot 2025-04-27 at 7 26 53 PM" src="https://github.com/user-attachments/assets/887e06be-f36c-4578-9263-5e2a4d75da85" />
 
