@@ -24,10 +24,9 @@ Through filtering the manufacturers by top 5 by [Recall Count] and the component
 
 ## Question 2:
 
-Question 2 - 
-
-Part 1: Since vehicles and equipment are the most frequently recalled items, which of our “major brands” have the highest number of recalls in these categories? 
-Part 2: For the top three brands, what specific components are most commonly found to be faulty?
+Question 2 
+- Part 1: Since vehicles and equipment are the most frequently recalled items, which of our “major brands” have the highest number of recalls in these categories? 
+- Part 2: For the top three brands, what specific components are most commonly found to be faulty?
 
 Importance:
 
