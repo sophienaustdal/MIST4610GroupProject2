@@ -11,17 +11,14 @@
 6. Coleman Vaughn https://github.com/Colemanv33/groupproject2
 
 ## Description of Dataset:
-Our dataset is comprised of vehicle, equipment, tire, and child seat recalls from 1/19/1966 - 4/4/2025 and was published by the National Highway Traffic Safety Administration. The data reporting requirements are made by manufacturers who determine that a product or piece of original equipment either contains a safety defect or is not in compliance with Federal safety standards. Our data columns include: Report Received Date, Nhtsa id, Recall Link, Manufacturer, Subject, Component, Mfr Campaign Number, Recall Type, Potentially Affected, Recall Description, Consequence Summary, Corrective Action, Park Outside Advisory, and Do Not Drive Advisory. We have 28,895 rows, 2,208 Manufacturers, and 41 Components in this dataset.
+Our dataset is comprised of vehicle, equipment, tire, and child seat recalls from 1/19/1966 - 4/4/2025 and was published by the National Highway Traffic Safety Administration. The data reporting requirements are made by manufacturers who determine that a product or piece of original equipment either contains a safety defect or is not in compliance with Federal safety standards. Our data columns include: Report Received Date, Nhtsa Id, Recall Link, Manufacturer, Subject, Component, Mfr Campaign Number, Recall Type, Potentially Affected, Recall Description, Consequence Summary, Corrective Action, Park Outside Advisory, and Do Not Drive Advisory. The dataset has 28,895 rows, indicating the total number of recalls. The dataset comprises 2,208 Manufacturers and 41 Components that were part of these recalls.
 
 
 ## Question 1:
 Question: What are the top 15 components that have the highest potential impact across the top 5 manufacturers with the most frequent recalls? How many vehicles are possibly affected by each component for each manufacturer?
 
 Importance:
-- Lets us pinpoint which components cause the most problems across those 5 manufacturers
-- Supports Consumer safety by identifying potential failures early
-- Avoiding repeating recalls on the same components can potentially save companies millions in repair, legal, and reputational costs
-- Will reveal patterns in component failure that will lead to improved designs, supplier choices, or quality control practices
+This question lets us pinpoint which components cause the most problems across the top 5 most recalled manufacturers. The resulting visualization could be a very important tool for regulators, manufacturers, and consumers. Regulators can identify which components need higher regulations and which manufacturers need to be more closely monitored. It can further support consumer safety by identifying potential failures early. Also, by highlighting risky component recalls, manufacturers can avoid repeated recalls on the same components, thus potentially saving companies millions in repair, legal, and reputational costs. Overall, the heatmap reveals patterns in component failure that could lead to improved designs, better informed supplier choices, and higher quality control practices.
 
 
 <img width="1200" alt="Screenshot 2025-04-22 at 7 17 19 PM" src="https://github.com/user-attachments/assets/9b989a3b-5f9b-448f-b599-8dd0e4b78ce3" />
@@ -36,7 +33,7 @@ Question:
 - Part 2: For the top three brands, what specific components are most commonly found to be faulty?
 
 Importance:
-
+This question allows us to understand which major brands have the most commonly faulty components. The results could help us pinpoint recurring issues, assess potential risks, guide quality control efforts, as well as help maintain brand reputation.
 
 Part 1:
 
